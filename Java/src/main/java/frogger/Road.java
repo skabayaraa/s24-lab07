@@ -1,10 +1,5 @@
 package frogger;
 
-/**
- * Refactor Task 1.
- *
- * @author Zishen Wen (F22), Deyuan Chen (S22)
- */
 public class Road {
     private final boolean[] occupied;
 
@@ -12,6 +7,7 @@ public class Road {
         this.occupied = occupied;
     }
 
+    // Make sure this method is PUBLIC!
     public boolean[] getOccupied() {
         return this.occupied;
     }
